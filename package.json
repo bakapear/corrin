@@ -1,6 +1,6 @@
 {
   "name": "corrin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "RSS Feed but with JSON arrays",
   "main": "index.js",
   "scripts": {
