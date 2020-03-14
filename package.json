@@ -1,0 +1,25 @@
+{
+  "name": "corrin",
+  "version": "1.0.0",
+  "description": "RSS Feed but with JSON arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakapear/corrin.git"
+  },
+  "keywords": [
+    "rss",
+    "feed",
+    "json",
+    "array"
+  ],
+  "author": "bakapear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakapear/corrin/issues"
+  },
+  "homepage": "https://github.com/bakapear/corrin#readme"
+}
