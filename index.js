@@ -12,9 +12,7 @@ class Feed extends Events {
         let items = await arr[i][0]()
         if (items.length) {
           let unique = getUniques(arr[i][1], last[i], items)
-          if (last[i] && last[i].length && unique.length) {
-            bundle[i] = unique
-          }
+          if (last[i] && unique.length) bundle[i] = unique
         }
         last[i] = items.slice(0)
       }
