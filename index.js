@@ -3,8 +3,8 @@ let Events = require('events')
 class Feed extends Events {
   constructor (arr, interval = 60000) {
     super()
-    if (!arr || arr.constructor !== Array) throw new Error('Invalid parameters!')
-    if (arr[0] === Function) arr = [arr]
+    if (!arr || !Array.isArray(arr)) throw new Error('Invalid parameters!')
+    if (typeof arr[0] === 'function') arr = [arr]
     let last = {}
     let timer = setInterval(async () => {
       let bundle = {}
